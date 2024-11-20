@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: inline-block;
+            
+           
+        }
+        .vg{
+            border: 3px solid olivedrab;
+            border-radius: 5px;
+            height: 200px;
+            width: 150px;
+            overflow: scroll;
+            background-color: antiquewhite;
+            
+            
+        }
+        .pr{
+            
+         white-space: nowrap;
+         text-overflow: ellipsis;
+         overflow: hidden;
+        }
+        img{
+            margin-left: 25px;
+            border-radius: 50px;
+        }
+        #p1{
+            display: none;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+            
+        }
+        .nvg{
+            border: 3px solid olivedrab;
+            border-radius: 5px;
+            height: 200px;
+            width: 150px;
+            overflow: scroll;
+          margin-left: 50px;
+          background-color: antiquewhite;
+        
+            
+         
+
+        }
+        .br{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        #b1{
+            display: none;
+        }
+        .vg:hover ~ #p1  {
+            display:inline-flex;
+    background-color: aquamarine;
+    color: brown;
+    width: 225px;
+    border-bottom-right-radius:30px ;
+  }
+  .nvg:hover ~ #b1 {
+    display: inline-flex;
+    background-color: aquamarine;
+    color: brown;
+    width: 225px;
+    border-bottom-right-radius:30px ;
+
+  }
+
+  
+        
+    </style>
+</head>
+<body>
+   <div>
+    <div class="vg" >
+        <P class="pr">
+        <img src="https://www.madhuseverydayindian.com/wp-content/uploads/2022/11/easy-vegetable-biryani.jpg" height="100px width=100px">
+        <h4><center>VEG BIRYANI</center></h4>
+        <P>click here to know more</P>
+    </P>
+</div>
+<p id="p1">Vegetable Biryani is an aromatic rice dish made with basmati rice, mix veggies, herbs & biryani spices. This easy Veg Biryani is a total crowd pleaser! You will love this for everything from busy night meals to holiday family dinners.</p>
+<div class="nvg">
+    <p class="br">
+    <img src="https://www.licious.in/blog/wp-content/uploads/2023/01/Shutterstock_2047827035-1024x683.jpg"height=100px width="100px">
+    <h4>NON VEG BIRYANI</h4>
+    <p> click here to know more</p>
+</p>
+</div>
+<p id="b1">The traditional process of Chicken Biryani starts by marinating meat in yogurt along with spices and herbs. The raw/uncooked marinated meat is layered at the bottom of a wide pot followed by another layer of par cooked basmati rice, herbs, saffron infused milk, fried onions and ghee or attar</p>
+</div>
+</div>
+</body>
+</html>
